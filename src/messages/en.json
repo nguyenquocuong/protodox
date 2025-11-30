@@ -1,1 +1,46 @@
-{}
+{
+  "common": {
+    "or": "or"
+  },
+  "AvatarDropdownMenu": {
+    "apprearance": {
+      "title": "Apprearance",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System theme"
+    },
+    "sign_out": "Sign out"
+  },
+  "Signup": {
+    "meta_title": "Create account"
+  },
+  "Login": {
+    "meta_title": "Login"
+  },
+  "Navbar": {
+    "login": "Log in",
+    "get_started": "Get Started"
+  },
+  "SignupView": {
+    "title": "Create your account",
+    "already_have_an_account": "Already have an account?"
+  },
+  "LoginView": {
+    "title": "Log in",
+    "dont_have_an_account": "Don't have an account?"
+  },
+  "VerifyCodeView": {
+    "title": "Verify your email",
+    "sent_temporary_code": "We sent a temporary login code to",
+    "not_you": "Not you?"
+  },
+  "VerifyCodeForm": {
+    "enter_verification_code": "Please enter the verification code sent to your email.",
+    "error": {
+      "EXPIRED_OR_INVALID": "Code has expired or invalid"
+    }
+  },
+  "GoogleLoginButton": {
+    "text": "Continue with Google"
+  }
+}
