@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import AuthObserver from "@/components/auth-observer";
 import CTABanner from "@/components/cta-banner";
 import FAQ from "@/components/faq";
 import Features from "@/components/features";
@@ -9,14 +8,11 @@ import Hero from "@/components/hero";
 import Navbar from "@/components/navbar/navbar";
 import Pricing from "@/components/pricing";
 import Testimonials from "@/components/testimonials";
+import AuthObserver from "@/features/auth/components/auth-observer";
 
 export const metadata: Metadata = {
   title: "Home",
-  description: "Smarter nutrition for muscle gain. Built with AI.",
-  openGraph: {
-    title: "Ficro - Smarter nutrition for muscle gain",
-    description: "Smarter nutrition for muscle gain. Built with AI.",
-  },
+  description: "Built with AI.",
 };
 
 function HomeContent() {

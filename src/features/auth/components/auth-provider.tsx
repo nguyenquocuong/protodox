@@ -3,8 +3,8 @@
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect } from "react";
 import { useAuthStore } from "@/features/auth/store";
+import { logger } from "@/lib/logger";
 import { createClient } from "@/lib/supabase/client";
-import { logger } from "../lib/logger";
 
 const ctx = logger.with({ component: "AuthProvider" });
 

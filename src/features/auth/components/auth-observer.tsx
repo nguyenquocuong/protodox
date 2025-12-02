@@ -1,5 +1,5 @@
+import AuthProvider from "@/features/auth/components/auth-provider";
 import { createClient } from "@/lib/supabase/server";
-import AuthProvider from "./auth-provider";
 
 export default async function AuthObserver({
   children,
